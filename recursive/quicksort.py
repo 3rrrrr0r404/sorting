@@ -13,6 +13,7 @@
 # elements in sublists are moved left or right of the pivot based on their value
 # this is repeated until sublists are 1 or 0 in length
 #then sublists are combined together to make sorted list
+#not as fast as mergesort for large lists, but faster for small lists
 
 
 def quicksort(arr):
