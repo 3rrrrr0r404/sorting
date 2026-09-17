@@ -14,7 +14,7 @@
 # there are log n merges, therefore O(n log n) time complexity regardless of order
 #works because each sublist is sorted before merging
 #therefore, sublists already in ascending order
-#works well for large lists, but not as fast as quicksort for small lists
+#works well for large lists, but not as fast as quicksort for small lists 
 
 
 def split(arr):
